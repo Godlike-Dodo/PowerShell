@@ -1,0 +1,10 @@
+PowerShell
+
+cd C:\Users\Gebruiker\2024-Powershell-Examentraining
+# Krijgt de default waardes terug met de tekst: Lokale server en 1 minuut
+.\param-if-else.ps1
+
+# Krijgt de nieuwe waardes die zijn gegeven en er staat: Andere server en ander aantal minuten
+.\param-if-else.ps1 -server DC02 -minutes 10
+
+

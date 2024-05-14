@@ -1,0 +1,8 @@
+PowerShell Commands
+
+cd C:\Users\Gebruiker\2024-Powershell-Examentraining
+# Krijg de default waardes.
+ .\param.ps1 
+# Gebruikers input, gebruik geen default waardes maar de opgegeven waardes die nodig zijn. 
+.\param.ps1 -server DC05 -minuten 5
+
