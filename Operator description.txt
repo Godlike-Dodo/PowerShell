@@ -1,0 +1,6 @@
+-eq	Checks if the two operand values are an exact match
+-ne	Checks if the two operand values are NOT an exact match
+-gt	Checks if the value of the left operand is greater than the value of the right operand
+-lt	Checks if the value of the left operand is less than the value of the right operand
+-ge	Checks if the value of the left operand is greater OR equal to the value of the right operand
+-le	Checks if the value of the left operand is less OR equal to the value of the right operand
