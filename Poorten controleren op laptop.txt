@@ -1,0 +1,14 @@
+# Specify the range of ports to scan
+$Startport = 135
+$Endport = 139
+
+foreach ($port in $Startport..$Endport)
+
+{
+    $result = Test-NetConnection -port $port -ComputerName 192.168.56.1
+
+    if ($result.TcpTestSucceeded) 
+    {
+        Write-Host "Poort $port staat open"
+    }
+}
